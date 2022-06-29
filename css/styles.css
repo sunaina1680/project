@@ -1,0 +1,43 @@
+.topCard {
+  background-color: #ffcdd5;
+  border-width: 0px;
+  margin: 75px auto;
+}
+.fa-google {
+  color:#4285F4; 
+}
+
+.fa-star {
+  color:#ffff00;
+}
+
+.navbar {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.jumbotron {
+  padding: 40px 20px 40px 20px;
+  margin: 50px auto;
+  color: floralwhite;
+}
+
+
+.navbar-dark {
+  background-color: black;
+}
+.productTypes {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  margin: 0px auto;
+  padding: 20px 0px 20px 0px;
+}
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f;
+}

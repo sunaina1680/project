@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel ="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Radhe Shyam</title>
+ 
+</head>
+    
+<body>
+  <!-- Navigation Bar-->
+    <nav class ="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <a clss="navbar-brand" href="#"><img src="img/logo2.png"height="60" width="61"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText">
+            <span class="fa fa-stream navbar-toggler-icon"></span>
+            </button>
+
+       <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">Products</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#woolenDress">Woolen Dresses</a>
+                <a class="dropdown-item" href="#summerDress">Summer Dresses</a>
+                <a class="dropdown-item" href="#accessories">Accessories</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <span class="navbar-text ml-auto">
+            <a id ="loginModalLink">
+                <span class="fa fa-sign-in"></span> Login
+            </a>
+          </span>
+    </div>
+    </div>
+    </nav>
+   
+    <!-- Login Modal-->
+            <div id="loginModal" class="modal fade" role="dialog">
+              <div class="modal-dialog modal-lg" content="content">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h4 class="modal-title">Login</h4>
+                          <button type="button" class="close" data-dismiss="modal">
+                              &times;
+                          </button>
+                      </div>
+                      <div class="modal-body">
+                          <form>
+                              <div class="form-row">
+                                  <div class="form-group col-sm-4">
+                                          <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                          <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                                  </div>
+                                  <div class="form-group col-sm-4">
+                                      <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                      <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                                  </div>
+                                  <div class="col-sm-auto">
+                                      <div class="form-check">
+                                          <input class="form-check-input" type="checkbox">
+                                          <label class="form-check-label"> Remember me
+                                          </label>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="form-row">
+                                  <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                  <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>        
+                              </div>
+                          </form>
+          
+                      </div>
+                  </div>
+              </div>
+          </div>
+       
+    <section id="home">
+      <div class="card text-center topCard">
+        <div clas="card-body">
+            <b><i class="fa fa-google"></i> Rating 4.5 <i class="fa fa-star"></i></b> | COD Available 
+        </div>
+      </div>
+      <header class="home-page">
+        <div class="container">
+            <div class ="row">
+                <div class ="col-12 col-sm-6 align-self-center">
+                    <img src="img/logo2.png" alt="Radhe Shyam">
+                </div>
+                <div class="col-12 col-sm-6 align-self-center">
+                  <h1>Welcome to our Website!<br>Happy Shopping <span class="fa fa-shopping-cart"></span></h1>
+                </div>
+            </div>  
+        </div>
+    </header>
+    </section>
+                    <!-- Product Section-->
+    <section id="product">
+      <div class =container>
+      <div id="woolen">
+        <h2 class="productTypes">Woolen Dresses</h2>
+      <div class="col-12">
+        <div id="woolenDress" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row row-eq-height">
+                        <div class="col-4 col-md-4 mb-3">
+                            <div class="card">
+                                <img class="img-fluid" src="img/dress1.jpeg" alt="white-green dress" height="300">
+                                <div class="card-body">
+                                    <h4 class="card-title">White Green Dress</h4>
+                                    <p class="card-text">Rs 200</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-4 col-md-4 mb-3">
+                            <div class="card">
+                                <img class="img-fluid" src="img/dress2.jpeg" height="300">
+                                <div class="card-body">
+                                    <h4 class="card-title">Colourful Dress</h4>
+                                    <p class="card-text">Rs 250</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-4 col-md-4 mb-3">
+                            <div class="card">
+                                <img class="img-fluid" src="img/dress3.jpeg" alt="Pink-Gary Frill Dress">
+                                <div class="card-body">
+                                    <h4 class="card-title">Pink-Gray Frill Dress</h4>
+                                    <p class="card-text">Rs 270</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row row-eq-height">
+
+                        <div class="col-4 col-md-4 mb-3">
+                            <div class="card">
+                                <img class="img-fluid" src="img/dress4.jpeg" alt="Flower Dress" height="702" width="830">
+                                <div class="card-body">
+                                    <h4 class="card-title">Flower Dress</h4>
+                                    <p class="card-text">Rs 210</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-4 col-md-4 mb-3">
+                            <div class="card">
+                                <img class="img-fluid" src="img/dress5.jpeg" alt="Peacock Dress">
+                                <div class="card-body">
+                                    <h4 class="card-title">Peacock Dress</h4>
+                                    <p class="card-text">Rs 270</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-4 col-md-4 mb-3">
+                            <div class="card">
+                                <img class="img-fluid" src="img/dress6.jpeg" alt="Cherry Dress">
+                                <div class="card-body">
+                                    <h4 class="card-title">Cherry Dress</h4>
+                                    <p class="card-text">Rs 190</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+          
+          <a class="carousel-control-prev" href="#woolenDress" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#woolenDress" role="button" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+          </a>
+   
+        </div>
+    </div>
+</div>
+
+<div class="summer">
+  <h2 class="productTypes">Summer Dresses</h2>
+  <div class="col-12">
+    <div id="summerDress" class="carousel slide" data-ride="carousel">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+
+                    <div class="col-4 col-md-4 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="img/sdress1.jpeg" alt="Yellow Dress">
+                            <div class="card-body">
+                                <h4 class="card-title">Yellow Dress</h4>
+                                <p class="card-text">Rs 300</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col-4 col-md-4 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="img/sdress2.jpeg" alt="Purple Dress">
+                            <div class="card-body">
+                                <h4 class="card-title">Purple Dress</h4>
+                                <p class="card-text">Rs 110</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4 col-md-4 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="img/sdress3.jpeg" alt="Butterfly Dress">
+                            <div class="card-body">
+                                <h4 class="card-title">Butterfly Dress</h4>
+                                <p class="card-text">Rs 300</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="row">
+
+                    <div class="col-4 col-md-4 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="img/sdress4.jpeg" alt="Combo Set">
+                            <div class="card-body">
+                                <h4 class="card-title">Combo set</h4>
+                                <p class="card-text"><del>Rs 300</del> Rs 250</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4 col-md-4 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="img/sdress5.jpeg" alt="Raincoat">
+                            <div class="card-body">
+                                <h4 class="card-title">Raincoat</h4>
+                                <p class="card-text">Rs 150</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4 col-md-4 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="img/sdress6.jpeg" alt="Suit">
+                            <div class="card-body">
+                                <h4 class="card-title">Suit</h4>
+                                <p class="card-text">Rs 150</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+      <a class="carousel-control-prev" href="#summerDress" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#summerDress" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+      </a>
+
+    </div>
+</div>
+</div>
+
+<div class="accessories">
+  <h2 class="productTypes">Accessories</h2>
+  <div class="col-12">
+    <div id="accessories" class="carousel slide" data-ride="carousel">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+
+                    <div class="col-4 col-md-4 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="img/adress1.jpeg" alt="Necklace">
+                            <div class="card-body">
+                                <h4 class="card-title">Necklace</h4>
+                                <p class="card-text">Rs 350</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col-4 col-md-4 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="img/adress2.jpeg" alt="Toy Laptop">
+                            <div class="card-body">
+                                <h4 class="card-title">Toy Laptop</h4>
+                                <p class="card-text">Rs 90</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4 col-md-4 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="img/adress3.jpeg" alt="Bed">
+                            <div class="card-body">
+                                <h4 class="card-title">Bed</h4>
+                                <p class="card-text">Rs 200</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="row">
+
+                    <div class="col-4 col-md-4 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="img/adress4.jpeg" alt="Chair">
+                            <div class="card-body">
+                                <h4 class="card-title">Chair</h4>
+                                <p class="card-text">Rs 120</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4 col-md-4 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="img/adress5.jpeg" alt="Kalgi">
+                            <div class="card-body">
+                                <h4 class="card-title">Kalgi</h4>
+                                <p class="card-text">Rs 260</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4 col-md-4 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="img/adress6.jpeg" alt="Asan">
+                            <div class="card-body">
+                                <h4 class="card-title">Asan</h4>
+                                <p class="card-text">Rs 250</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+      <a class="carousel-control-prev" href="#accessories" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#accessories" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+      </a>
+
+    </div>
+</div>
+</div>
+</div>
+</div>
+    </section>
+    <br>
+    <br>
+    <section id="contact">
+      <div class="container">
+      <div class="row row-content">
+        <div class="col-12">
+           <h3>Send us your Feedback</h3>
+        </div>
+         <div class="col-12 col-md-9">
+         <form>
+             <div class="form-group row">
+                 <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+                 <div class="col-md-10">
+                    <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+                 </div>
+             </div>
+             <div class="form-group row">
+                 <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+                 <div class="col-md-10">
+                    <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+                 </div>
+             </div>
+             <div class="form-group row">
+              <label for="telephone" class="col-md-2 col-form-label">Mobie Number</label>
+              <div class="col-md-10">
+                 <input type="text" class="form-control" id="telephone" name="telephone" placeholder="Mobile Number">
+              </div>
+          </div>
+
+             <div class="form-group row">
+                 <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+                 <div class="col-md-10">
+                    <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+                 </div>
+                 </div>
+                 <div class="form-group row">
+                     <div class="offset-md-2 col-md-10">
+                         <button type="submit" class="btn btn-primary">
+                             Send Feedback
+                         </button>
+                     </div>
+                 </div>
+         </form>
+         </div>
+         
+                 </div>
+             </div>
+             <footer class="footer">
+              <div class="container">
+                  <div class="row">             
+                      <div class="col-4 offset-1 col-sm-2">
+                          <h5>Links</h5>
+                          <ul class="list-unstyled">
+                              <li><a href="#home">Home</a></li>
+                              <li><a href="#">About</a></li>
+                              <li><a href="#product">Products</a></li>
+                              <li><a href="#contact">Contact</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-7 col-sm-5">
+                          <h5>Our Address</h5>
+                          <address>
+                        42 Model Town<br>
+                        Firozpur, Punjab<br>
+                        India<br>
+                            <i class="fa fa-phone fa-lg"></i>: +91 6284850078<br>
+                            <i class="fa fa-envelope fa-lg"></i>: 
+                            <a href="mailto:sunainab36@gmail.com">sunainab36@gmail.com</a>
+                     </address>
+                      </div>
+                      <div class="col-12 col-sm-4 align-self-center">
+                          <div class="text-center">
+                              <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/sunaina9756?utm_source=qr"><i class="fa fa-instagram"></i></a>
+                              <a class="btn btn-social-icon" href="mailto:sunainab36gmail.com"><i class="fa fa-envelope-o"></i></a>
+                          </div>
+                      </div>
+                 </div>
+                 <div class="row justify-content-center">             
+                      <div class="col-auto">
+                          <p>© Copyright 2022 Radhe Shyam</p>
+                      </div>
+                 </div>
+              </div>
+            </footer>
+    </section>
+  </div>
+     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+     <script>
+     $(document).ready(function(){
+      $('#loginModalLink').click(function(){
+        $('#loginModal').modal('show');
+        });
+     });
+    </script>
+</body>
